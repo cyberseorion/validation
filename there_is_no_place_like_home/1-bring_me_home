@@ -1,2 +1,2 @@
-echo $HOME | cd
+cd | echo $HOME
 
