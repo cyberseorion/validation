@@ -1,1 +1,2 @@
+#script that automatically brings you to your home directory
 cd $HOME
