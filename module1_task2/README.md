@@ -9,7 +9,7 @@
 * The website is expected to be generated into the directory task0_module1/dist/
 * GNU Make version 3.81 or 4.0 must be used
 ## Lifecycle
-* "Build": Generate the website from the markdown and configuration files  in the directory dist/.
-* "Clean": Cleanup the content of the directory dist/
-* "Post": Create a new blog post whose filename and title come from the environment variables POST_TITLE and POST_NAME.
-* The "Build" step should be executed by the command make build, "Clean" by make clean and "Post" by make post.
+1. "Build": Generate the website from the markdown and configuration files  in the directory dist/.
+2. "Clean": Cleanup the content of the directory dist/
+3. "Post": Create a new blog post whose filename and title come from the environment variables POST_TITLE and POST_NAME.
+4. The "Build" step should be executed by the command make build, "Clean" by make clean and "Post" by make post.
