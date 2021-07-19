@@ -7,7 +7,9 @@
 * All of the website's source code is stored under a directory named task0_module1
 * All of the website's source code is stored under a directory named task0_module1
 * The website is expected to be generated into the directory task0_module1/dist/
+* GNU Make version 3.81 or 4.0 must be used
 ## Lifecycle
-* "Build": Generate the website from the markdown and configuration files in the directory dist/.
+* "Build": Generate the website from the markdown and configuration files  in the directory dist/.
 * "Clean": Cleanup the content of the directory dist/
 * "Post": Create a new blog post whose filename and title come from the environment variables POST_TITLE and POST_NAME.
+* The "Build" step should be executed by the command make build, "Clean" by make clean and "Post" by make post.
