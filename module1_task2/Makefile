@@ -11,9 +11,6 @@ post:	## "Post": Create a new blog post whose filename and title come from the e
 	sed -i -e 's/true/false/' content/posts/$(POST_NAME).md
 
 help:	## displays help usage for the makefile
-	@echo make build
-	@echo make clean
-	@echo make post
-	@echo Build: Generate the website from the markdown and configuration files to the directory dist/.
-	@echo Post: Create a new blog post whose filename and title come from the environment variables POST_TITLE and POST_NAME.
-	@echo Clean: Cleanup the content of the directory dist/
+	@echo build: Generate the website from the markdown and configuration files to the directory dist/.
+	@echo post: Create a new blog post whose filename and title come from the environment variables POST_TITLE and POST_NAME.
+	@echo clean: Cleanup the content of the directory dist/
