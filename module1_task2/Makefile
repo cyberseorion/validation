@@ -16,4 +16,4 @@ post:
 .PHONY:help
 ## help: Displays help usage
 help:	Makefile
-	@sed -n 's/##//p' $<
+	@sed -n 's/^##//p' $<
