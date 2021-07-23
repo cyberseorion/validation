@@ -1,6 +1,6 @@
 .PHONY:build 
 build:
-	hugo
+	hugo --cleanDestinationDir
 .PHONY:clean 
 clean:
 	rm -rf dist/*
