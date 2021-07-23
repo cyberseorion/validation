@@ -2,7 +2,7 @@ DEFAULT_GOAL:=help
 .PHONY:build
 ## build: Generate the website from the markdown and configuration files in the directory dist/. 
 build:	
-	hugo
+	hugo --cleanDestinationDir
 .PHONY:clean
 ## clean: Cleanup the content of the directory dist/ 
 clean:	
