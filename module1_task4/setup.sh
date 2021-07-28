@@ -1,4 +1,4 @@
-apt-get update && apt-get install -y hugo make
+apt-get update && apt-get install -y make hugo
 hugo new site ./ --force
 #wget -q https://github.com/theNewDynamic/gohugo-theme-ananke/archive/master.zip
 #unzip master.zip
@@ -7,6 +7,5 @@ hugo new site ./ --force
 #echo title = \"Awesome Inc.\" > config.toml
 #echo theme = \"ananke\" >> config.toml
 echo publishDir = \"dist/\" >> config.toml
-#hugo new posts/welcome.md
 make build
 
