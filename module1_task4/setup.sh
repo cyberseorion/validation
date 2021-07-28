@@ -7,5 +7,3 @@ hugo new site ./ --force
 #echo title = \"Awesome Inc.\" > config.toml
 #echo theme = \"ananke\" >> config.toml
 echo publishDir = \"dist/\" >> config.toml
-make build
-
